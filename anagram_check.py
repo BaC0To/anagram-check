@@ -41,10 +41,4 @@ class Anagram:
         except (TypeError) as exc:
                 print(f"Oops!  That {exc}.Try again with strings...")
 
-""" first_word = 123
-second_word = "act"
-
-try_anagram1 = Anagram()
-result = try_anagram1.strings_anagram_checker(first_word, second_word)
-print(f"The result form checking both strings: \"{first_word} & {second_word}\" if anagrams is : {result}") """
 
