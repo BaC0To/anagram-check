@@ -1,1 +1,1 @@
-# anagram-check
+a program and the test module to check if two strings are anagrams or not
