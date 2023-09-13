@@ -3,7 +3,7 @@ def are_anagrams(string1:str, string2:str)-> bool:
     params: two strings
     return: bool
     """
-    if (len(string1) == len(string2) and sorted(string1) == sorted(string2)):
+    if (len(string1) == len(string2) and sorted(list(string1)) == sorted(list(string2))):
         print("The strings are anagrams.")
         return True
     else:
